@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История ЭВМ</title>
+</head>
+<body>
+        <h1>История ЭВМ</h1>
+    
+    <div style="background-color: #e0e0e0; padding: 10px; margin-bottom: 10px;">
+        <p>Первые электронные вычислительные машины появились в середине XX века.</p>
+        <p>Тег <span style="color: red; font-weight: bold;">span</span> используется для выделения части текста внутри строки.</p>
+    </div>
+    
+    <div style="background-color: #c0c0c0; padding: 10px;">
+        <p><strong>div</strong> используется как контейнер для логических блоков страницы. Занимает всю ширину, начинается с новой строки.</p>
+        <p><strong>span</strong> применяется для выделения отдельных слов или фрагментов текста. Занимает только ширину текста, не переносится.</p>
+    </div>
+
+        <h2>Форматирование текста</h2>
+    <p>
+        <b>Жирный текст (b)</b><br>
+        <strong>Логическое выделение (strong)</strong><br>
+        <i>Курсив (i)</i><br>
+        <em>Логическое выделение курсивом (em)</em><br>
+        <mark>Выделенный текст (mark)</mark><br>
+        <small>Маленький текст (small)</small><br>
+        <del>Зачеркнутый текст (del)</del><br>
+        <ins>Вставленный текст (ins)</ins><br>
+        <sub>Подстрочный (sub)</sub> и <sup>надстрочный (sup)</sup>
+    </p>
+
+        <h2>Виды ссылок</h2>
+    
+    <h3>Относительные ссылки (внутри проекта):</h3>
+    <p>
+        <a href="info.html">Информация</a> | 
+        <a href="media.html">Медиа</a> | 
+        <a href="forms.html">Формы</a> | 
+        <a href="vector.html">SVG</a>
+    </p>
+    
+    <h3>Абсолютные ссылки (внешние ресурсы):</h3>
+    <p><a href="https://ru.wikipedia.org/wiki/ЭВМ" target="_blank">Википедия: ЭВМ</a></p>
+    
+    <h3>Якорные ссылки (навигация по странице):</h3>
+    <p id="top"><a href="#generation">Перейти к поколениям ЭВМ</a></p>
+    
+    <h3>Специальные ссылки:</h3>
+    <p>
+        <a href="mailto:example@mail.com">Написать письмо (mailto)</a><br>
+        <a href="tel:+88005553535">Позвонить (tel)</a><br>
+        <a href="../../README.md" download>Скачать описание лабораторной (download)</a>
+    </p>
+    
+    <h2 id="generation">Поколения ЭВМ</h2>
+    <p>Описание поколений электронных вычислительных машин будет ниже.</p>
+    
+    <p><a href="#top">Вернуться наверх</a></p>
+
+        <h2>Изображения ЭВМ</h2>
+    
+    <h3>Относительный путь:</h3>
+    <img src="C:\Users\watch_demo\Documents\Lab6_HtmlCSS_Strenin\img/computer_generation_1.jpg" alt="Первое поколение ЭВМ" width="300" loading="lazy">
+    
+    <h3>Абсолютный путь (пример):</h3>
+    <img src="https://yastatic.net/naydex/yandex-search/1Q2XGu571/cb2b8apFE6/fohH2RF_1C11qY5_aRoS7vJ7xulbTvzwGmLeTWe5PeR56it-C6uhPprq1tMwG8XQUKupbW5aq3txVYFHzPNPYzq2AcA8U7sBU4XvVEEzP8XzNMboShm15xsQ5A" alt="ENIAC" width="300">
+    
+    <h3>Все поколения:</h3>
+    <img src="C:\Users\watch_demo\Documents\Lab6_HtmlCSS_Strenin\img/computer_generation_1.jpg" alt="I поколение" width="250" loading="lazy">
+    <img src="C:\Users\watch_demo\Documents\Lab6_HtmlCSS_Strenin\img/computer_generation_2.jpg" alt="II поколение" width="250" loading="lazy">
+    <img src="C:\Users\watch_demo\Documents\Lab6_HtmlCSS_Strenin\img/computer_generation_3.jpg" alt="III поколение" width="250" loading="lazy">
+    <img src="C:\Users\watch_demo\Documents\Lab6_HtmlCSS_Strenin\img/computer_generation_4.jpg" alt="IV поколение" width="250" loading="lazy">
+        <h2>Цитаты об ЭВМ</h2>
+    
+    <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">
+        «Электронная вычислительная машина – комплекс технических средств, предназначенных для автоматической обработки информации.»
+    </blockquote>
+    <cite>Источник: Википедия</cite>
+    
+    <blockquote cite="https://ru.wikipedia.org/wiki/Компьютер">
+        «Компьютер — устройство или система, способная выполнять заданную, чётко определённую последовательность операций.»
+    </blockquote>
+    <cite>Источник: Википедия</cite>
+
+        <h2>Медиаконтент</h2>
+    
+    <h3>Видео:</h3>
+    <video controls width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        Ваш браузер не поддерживает видео.
+    </video>
+    
+    <h3>Аудио:</h3>
+    <audio controls>
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+        Ваш браузер не поддерживает аудио.
+    </audio>
+    
+    <h3>YouTube видео (iframe):</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Cdl7HxHcBsw" 
+            title="YouTube video" frameborder="0" allowfullscreen>
+    </iframe>
+
+        <h2>Различные типы input</h2>
+    
+    <form>
+        <label>Текст: <input type="text" placeholder="Обычный текст" /></label><br><br>
+        
+        <label>Телефон: <input type="tel" placeholder="+7 (999) 123-45-67" /></label><br><br>
+        
+        <label>Email: <input type="email" placeholder="example@mail.com" /></label><br><br>
+        
+        <label>Пароль: <input type="password" placeholder="Введите пароль" /></label><br><br>
+        
+        <label>URL: <input type="url" placeholder="https://example.com" /></label><br><br>
+        
+        <label>Поиск: <input type="search" placeholder="Поиск..." /></label><br><br>
+        
+        <label>Число: <input type="number" min="1" max="10" /></label><br><br>
+        
+        <label>Дата: <input type="date" /></label><br><br>
+        
+        <label>Цвет: <input type="color" /></label><br><br>
+        
+        <label>Чекбокс: <input type="checkbox" /> Согласен</label><br><br>
+        
+        <label>Радио: 
+            <input type="radio" name="radio" /> Вариант 1
+            <input type="radio" name="radio" /> Вариант 2
+        </label><br><br>
+        
+        <input type="submit" value="Отправить" />
+        <input type="reset" value="Очистить" />
+    </form>
+</body>
+</html>
