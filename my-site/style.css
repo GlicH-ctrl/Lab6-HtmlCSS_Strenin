@@ -101,3 +101,83 @@ img {
     border-radius: 4px;
     border: 1px solid #d0d7e2;
 }
+
+/* Стили для форм */
+form {
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="url"],
+input[type="search"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #d0d7e2;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    border: 1px solid #d0d7e2;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #2a6df4;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    
+    section, aside {
+        grid-column: 1;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
